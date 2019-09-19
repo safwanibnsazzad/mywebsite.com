@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>CSS Template</title>
-<meta charset="utf-8">
+<html>
+<title>W3.CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
 <style>
 * {
   box-sizing: border-box;
@@ -16,28 +17,74 @@ body {
 /* Style the header */
 header {
   background-color: white;
-  padding: 2px;
+  padding: 02x;
   text-align: center;
-  font-size: 28px;
+  font-size:30px;
+  line-height: 1.0;
   color: black;
 }
 
 article {
   float: left;
-  padding: 205px;
+  padding: 230px;
   width: 100%;
-  background-color: #f1f1f1;
+  background-color: #f1f1f1; 
+  position: absolute;
   height: 300px; /* only for demonstration, should be removed */
 }
 
-/* Clear floats after the columns */
-section:after {
-  content: "";
-  display: table;
-  clear: both;
+
+/* Thick grey border */
+hr.new4 {
+  border: 1px solid light-grey;
 }
 
-/* Style the footer */
+
+.button {
+  background-color: #9ACD32; /* Green */
+  border: none;
+  color: white;
+  padding: 08px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px 4px;
+  -webkit-transition-duration: 0.1s; /* Safari */
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #F5F5F5; 
+  color: black; 
+  border: 2px solid #D3D3D3;
+  
+}
+
+.button1:hover {
+  background-color: #9ACD32;
+  color: black;
+}
+
+.button2 {
+  background-color: #F5F5F5; 
+  color: black; 
+  border: 2px solid #D3D3D3;
+  
+}
+
+.button2:hover {
+  background-color: #9ACD32;
+  color: black;
+}
+
+div {
+margin-top: -100px;
+}
+
+
+  /* Style the footer */
 footer {
   position: fixed;
    left: 0;
@@ -49,273 +96,55 @@ footer {
 }
 
 
-}
+
 </style>
 </head>
-
-
 <body>
+
+
 
 <header>
-  <h6 class="w3-xlarge"> <font face="Courier New"> <b>BOARD OF INTERMEDIATE & SECONDARY EDUCATION, DINAJPUR</b>  </font></h6>
-  <h6> <font face="Courier New"> RESULT OF S.S.C. EXAMINATION, 2019  </font> </h6>
-
+<img src="f.jpg" width="80" height="80">
+</br>
+  <h4<font face="Courier New"><b>BOARD OF INTERMEDIATE & SECONDARY EDUCATION, DINAJPUR</b></font></h4>
+  <h3><font face="Courier New">RESULT OF S.S.C. EXAMINATION, 2019</font></h3>
 </header>
 
-
 <section>
-
+  
+  
 <article>
+<center> 
 
-
-<html>
-<style>
-body {font-family: Courier New ;}
-* {box-sizing: border-box;}
-
-
-/* Set a style for all buttons */
-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: -40px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-  position: absolute;
-
-}
-
-button:hover {
-  opacity:1;
-}
-
-
-/* Add padding to container elements */
-.container {
-  padding: 16px;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: white;
-  padding-top: 50px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* Style the horizontal ruler */
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 35px;
-  top: 15px;
-  font-size: 40px;
-  font-weight: bold;
-  color: green;
-}
-
-
-.close:hover,
-.close:focus {
-  color: #f44336;
-  cursor: pointer;
-}
-
-
-}
-</style>
-<style>
-table {
-  font-family:  Courier New ;
-  border-collapse: collapse;
-  width: 50%;
-}
-
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(odd) {
-  background-color: #eee;
-}
-</style>
-<body>
-
-<center><h2>Click your Roll No.</h2></center>
-
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Roll No: 100</button>
-
-<div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-  <form class="modal-content" action="/action_page.php">
-    <div class="container">
-     <center><h4><font face=" Courier New"> BOARD OF INTERMEDIATE & SECONDARY EDUCATION, DINAJPUR </br>RESULT OF S.S.C. EXAMINATION, 2018 </font></h4></center>
-<center>
-<table>
-  <tr>
-    <th>Roll No</th>
-    <th colspan="3">191393</th>
-  </tr>
-
-  <tr>
-    <td>Name of Student:</td>
-    <td colspan="3">SAFWAN IBN SAZZAD</td>
-   
-  </tr>
-  <tr>
-    <td>Board</td>
-    <td>DINAJPUR</td>
-    <td>Session</td>
-    <td>2016-17</td>
-  </tr>
-  <tr>
-    <td>Group</td>
-    <td>SCIENCE</td>
-    <td>Type:</td>
-    <td>REGULAR</td>
-  </tr>
-   <tr>
-    <td>Result</td>
-    <td>GPA=...</td>
-    <td>TOTAL MARK</td>
-    <td>...</td>
-  </tr>
-</table>
-<body>
-
+<div class="w3-container">
+<div class="w3-white w3-padding-24 w3-center" style="width:60%">
+</br>
+</br>
 </br>
 </br>
 
-<table>
-  <tr>
-    <th>SUBJECT CODE</th>
-    <th>SUBJECT NAME</th>
-    <th>THEORY</th>
-    <th>PRAC/CA</th>
-    <th>MCQ</th>
-    <th>TOTAL</th>
-    <th>GRADE</th>
-    
-  </tr>
-  <tr>
-    <td>101</br>102</td>
-    <td>BANGLA - I</br>BANGLA - II</td>
-    <td>...</br>...</td>
-    <td>-</br>-</td>
-    <td>...</br>...</td>
-    <td>...</td>
-    <td>...</td>
-    
-  </tr>
-  <tr>
-  <td>107</br>108</td>
-    <td>ENGLISH - I</br>ENGLISH - II</td>
-    <td>...</br>...</td>
-    <td>-</br>-</td>
-    <td>-</br>-</td>
-    <td>...</td>
-    <td>...</td>
-   
-  </tr>
-  <tr>
-    <td>126</td>
-    <td>HIGHER MATHEMATICS</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
-  </tr>
-  <tr>
-    <td>136</td>
-    <td>PHYSICS</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
-  </tr>
-  <tr>
-    <td>137</td>
-    <td>CHEMISTRY</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
-  </tr>
-  <tr>
-    <td>154</td>
-    <td>ICT</td>
-    <td>-</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
-  </tr>
-
- <tr>
-    <td>138</td>
-    <td>BIOLOGY</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
-    <td>...</td>
-  </tr>
-</table>
-</br>
-</br>
-</center> 
-    </div>
-  </form>
+<div class="b"><font size="4">Select Institute Or Individual Student Result</div>
+<hr class="new4">
+<a href="http://www.safwanibnsazzad.tk/" class="button button1">Full institute </br> results</a>
+<a href="" class="button button2">Individual student </br>  result</a>
+  </div>
 </div>
 
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
+</center> 
 
-}
-</script>
-
-</body>
-</html>
+ </article>
 
 
-
-  
-  </article>
 </section>
 
-  
+
+
+
 <footer>
-  <p> Developed by <a href="https://safwanibnsazzad.github.io/mywebsite.com/">Safwan Ibn Sazzad</a> </p>
+  <p> Developed by <a href="http://www.safwanibnsazzad.tk/">Safwan Ibn Sazzad</a> </p>
 </footer>
 
+
+</body>
 </body>
 </html>
